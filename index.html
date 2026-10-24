@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <!-- Memanggil file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portofolio.</div>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#keahlian">Keahlian</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>Halo, Saya seorang <span>Computer Science Student</span></h1>
+            <p>Saya berfokus pada pengembangan backend, administrasi sistem Linux, dan tata letak UI/UX yang responsif.</p>
+            <a href="#keahlian" class="btn">Lihat Keahlian Saya</a>
+        </div>
+    </section>
+
+    <section id="keahlian" class="skills-section">
+        <h2>Keahlian Utama</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Linux & SysAdmin</h3>
+                <p>Mengelola mesin virtual Ubuntu dan CentOS, serta konfigurasi server dasar.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <p>Membangun struktur REST API dan manajemen database menggunakan PHP dan Laravel.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Frontend Design</h3>
+                <p>Mendesain antarmuka website menggunakan HTML dan CSS murni dengan tata letak Flexbox.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="tahun"></span> Portofolio Mahasiswa. Dibuat dengan HTML, CSS, & JS.</p>
+    </footer>
+
+    <!-- Memanggil file JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
